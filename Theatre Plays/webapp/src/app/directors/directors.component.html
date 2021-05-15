@@ -1,0 +1,22 @@
+<h2>Directors</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let director of directors">
+      <span>Id: {{director.id}} | Name: {{director.name}} | Age: {{director.age}} | Gender: {{director.gender}} | Office Number: {{director.office.officeNumber}}</span>
+
+      <button class="delete" title="delete director"
+              (click)="deleteDirector(director.id)">Delete</button>
+<!--      <a routerLink="/director-update/{{director.id}}">-->
+<!--        <button>Update</button>-->
+<!--      </a>-->
+
+    </li>
+  </ul>
+</div>
+
+<nav>
+  <a routerLink="/director-form">
+    Add Director
+  </a>
+</nav>

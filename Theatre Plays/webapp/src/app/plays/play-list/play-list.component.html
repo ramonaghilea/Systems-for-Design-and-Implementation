@@ -1,0 +1,22 @@
+<h2>Plays</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let play of plays">
+      <span>Id: {{play.id}} | Name: {{play.playName}} | Duration: {{play.duration}} | Director: {{play.director.name}}</span>
+
+        <button class="delete" title="delete play"
+                (click)="deletePlay(play.id)">Delete</button>
+        <a routerLink="/play-update/{{play.id}}">
+          <button>Update</button>
+        </a>
+
+    </li>
+  </ul>
+</div>
+
+<nav>
+  <a href="/play-new">
+    Add new Play
+  </a>
+</nav>

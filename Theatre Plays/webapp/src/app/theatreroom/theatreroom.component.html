@@ -1,0 +1,19 @@
+<h2>Theatre Rooms</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let room of rooms">
+      <span>Id: {{room.id}} | Name: {{room.roomName}} | Capacity: {{room.capacity}}</span>
+    </li>
+  </ul>
+</div>
+
+<label>Capacity:<input #capacityInput/></label>
+
+<nav>
+  <button class="filter" title="filter theatrerooms"
+      (click)="filterRoomsByCapacity(capacityInput.value)">Filter by Capacity Greater or Equal</button>
+  <br>
+  <button (click)="sortRoomsByCapacity()">Sort by Capacity</button>
+  <button (click)="getAllRooms()">Display All</button>
+</nav>
