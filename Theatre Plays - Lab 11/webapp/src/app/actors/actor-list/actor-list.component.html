@@ -1,0 +1,19 @@
+<h2>Actors</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let actor of actors">
+      <span>Id: {{actor.id}} | Name: {{actor.name}} | Age: {{actor.age}} | Gender: {{actor.gender}}</span>
+    </li>
+  </ul>
+</div>
+
+<nav>
+  <a routerLink="/actor-form">
+    <button>Add Actor</button>
+  </a>
+  <a routerLink="/actor-filter">
+    <button>Filter Actors by Name</button>
+  </a>
+  <button (click)="sortActorsByAge()">Sort Actors by Age</button>
+</nav>

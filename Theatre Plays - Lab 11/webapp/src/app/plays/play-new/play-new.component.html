@@ -1,0 +1,60 @@
+<h2>New Play</h2>
+
+<!--<div>-->
+<!--  <label>Play Name:<input #playNameInput/></label><br/>-->
+<!--  <label>Duration:<input #durationInput/></label><br/>-->
+<!--  <button (click)="addPlay(playNameInput.value, durationInput.value)">-->
+<!--    Submit-->
+<!--  </button>-->
+<!--</div>-->
+
+<form (ngSubmit)="onSubmit()" #actorForm="ngForm">
+
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name"
+           required minlength="2"
+           [(ngModel)]="model.playName" name="name"
+           #name="ngModel">
+    <div *ngIf="name.invalid && (name.dirty || name.touched)"
+         class="alert alert-danger">
+
+      <div *ngIf="name.errors.required">
+        Name is required.
+      </div>
+
+      <div *ngIf="name.errors.minlength">
+        Name must be at least 2 characters long.
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="duration">Duration</label>
+    <input type="number"  class="form-control" id="duration"
+           required
+           [(ngModel)]="model.duration" name="duration"
+           #duration="ngModel">
+    <div *ngIf="duration.invalid && (duration.dirty || duration.touched)"
+         class="alert alert-danger">
+
+      <div *ngIf="duration.errors.required">
+        Age is required.
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="director">Director</label>
+    <select class="form-control"  id="director"
+            required
+            [(ngModel)]="model.director" name="director">
+      <option *ngFor="let director of directors" [ngValue]="director">{{director.name}}</option>
+    </select>
+  </div>
+
+  <button type="submit" class="btn btn-success"
+          [disabled]="!actorForm.form.valid">Submit</button>
+
+</form>
+

@@ -1,0 +1,11 @@
+<div *ngIf="performance">
+  <h2>{{performance.play.id}} | {{performance.play.playName}}</h2>
+  <h2>{{performance.actor.id}} | {{performance.actor.name}}</h2>
+  <div>
+    <label for="role">Role name: </label>
+    <input id="role" [(ngModel)]="performance.role" placeholder="Role"/>
+  </div>
+  <!--  <button (click)="goBack()">go back</button>-->
+  <button (click)="updatePerformance()">Update</button>
+</div>
+

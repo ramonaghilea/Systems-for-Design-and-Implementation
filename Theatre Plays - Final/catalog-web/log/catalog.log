@@ -1,0 +1,424 @@
+2021-05-20T11:56:14,217 TRACE [Test worker]: OfficeController                     - > getAllOffices - method entered. 
+2021-05-20T11:56:14,234 TRACE [Test worker]: OfficeController                     - > getAllOffices - result = [OfficeDTO(super=BaseDTO(id=1), officeNumber=23A, address=street 34), OfficeDTO(super=BaseDTO(id=2), officeNumber=25B, address=street 25)]. 
+2021-05-20T13:04:37,272 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:04:37,288 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:05:02,402 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:05:02,418 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:05:30,097 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:05:30,113 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:06:02,999 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:06:03,014 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:06:48,535 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:06:48,549 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:08:19,993 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:08:20,011 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:10:12,105 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:10:12,126 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:11:33,573 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:11:33,591 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:11:41,690 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:11:41,722 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:12:30,213 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:12:30,245 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:13:34,336 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:13:34,355 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:16:49,112 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:16:49,126 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:16:49,329 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:16:49,330 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:43:33,447 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:43:33,471 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:43:33,860 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female) 
+2021-05-20T13:43:33,861 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T13:43:33,863 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T13:43:33,864 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T13:43:33,920 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:43:33,920 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:45:56,311 WARN  [Test worker]: PageNotFound                         - Request method 'POST' not supported 
+2021-05-20T13:45:56,421 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:45:56,428 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T13:45:56,657 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:45:56,658 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = []. 
+2021-05-20T13:45:56,737 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:45:56,738 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:46:47,152 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T13:46:47,237 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:46:47,238 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:46:47,526 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female) 
+2021-05-20T13:46:47,528 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T13:46:47,529 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T13:46:47,530 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T13:46:47,576 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:46:47,577 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:51:12,465 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T13:51:12,587 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:51:12,589 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:51:12,863 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T13:51:12,864 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T13:51:12,865 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T13:51:12,866 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T13:51:12,932 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:51:12,935 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:55:42,104 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T13:55:42,199 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:55:42,201 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T13:55:42,533 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T13:55:42,534 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T13:55:42,535 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T13:55:42,536 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T13:55:42,587 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T13:55:42,588 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T14:03:41,963 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T14:03:42,059 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T14:03:42,061 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T14:03:42,262 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T14:03:42,262 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T14:03:42,265 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T14:03:42,265 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T14:03:42,301 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T14:03:42,302 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T14:05:05,172 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T14:05:05,268 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T14:05:05,269 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T14:05:05,477 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T14:05:05,477 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T14:05:05,479 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T14:05:05,482 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T14:05:05,566 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T14:05:05,567 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T15:27:22,930 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T15:27:23,046 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:27:23,048 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T15:27:23,368 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:27:23,369 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:27:23,369 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:27:23,371 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:27:23,437 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:27:23,439 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T15:30:24,790 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T15:30:24,880 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:30:24,882 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T15:30:25,196 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:30:25,197 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T15:36:07,467 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:36:07,480 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:36:07,487 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:36:07,489 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:36:26,606 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:36:26,618 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:36:26,623 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:36:26,626 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:36:53,139 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:36:53,155 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:36:53,158 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:36:53,159 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:38:09,366 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female) 
+2021-05-20T15:38:09,375 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:38:09,378 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:38:09,379 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:39:00,755 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T15:39:00,847 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:39:00,848 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T15:39:01,124 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female) 
+2021-05-20T15:39:01,125 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:39:01,126 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:39:01,127 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:39:01,206 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:39:01,207 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T15:42:45,709 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:42:45,719 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:42:45,722 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:42:45,723 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:43:40,727 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-20T15:43:40,840 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:43:40,842 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-20T15:43:41,071 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:43:41,071 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:43:41,072 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:43:41,073 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:43:41,125 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-20T15:43:41,126 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-20T15:44:32,739 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:44:32,751 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:44:32,755 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:44:32,757 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:44:54,979 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:44:54,995 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:44:55,002 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:44:55,003 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:49:18,160 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:49:18,181 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:49:18,186 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:49:18,187 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T15:53:51,958 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T15:53:51,980 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T15:53:51,989 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T15:53:51,991 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T16:11:57,233 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T16:11:57,246 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = null 
+2021-05-20T16:11:57,248 TRACE [Test worker]: ActorController                      - > addActor - result = null 
+2021-05-20T16:11:57,250 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = null 
+2021-05-20T16:11:57,345 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-20T16:11:57,382 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-20T16:11:57,384 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:11:57,612 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-20T16:11:57,612 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = []. 
+2021-05-20T16:12:58,716 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-20T16:12:58,805 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-20T16:12:58,807 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:12:58,991 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-20T16:12:58,992 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:18:01,912 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-20T16:18:02,032 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-20T16:18:02,034 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:18:02,316 TRACE [Test worker]: ActorController                      - > updateActor - method entered. actorDTO = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T16:18:02,362 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-20T16:18:02,365 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:27:30,270 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T16:27:30,279 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = null 
+2021-05-20T16:27:30,281 TRACE [Test worker]: ActorController                      - > addActor - result = null 
+2021-05-20T16:27:30,283 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = null 
+2021-05-20T16:27:30,349 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-20T16:27:30,385 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-20T16:27:30,387 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male), ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female)]. 
+2021-05-20T16:27:30,494 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-20T16:27:30,495 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = [ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female), ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male)]. 
+2021-05-20T16:28:17,949 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T16:28:17,958 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = null 
+2021-05-20T16:28:17,960 TRACE [Test worker]: ActorController                      - > addActor - result = null 
+2021-05-20T16:28:17,962 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = null 
+2021-05-20T16:31:34,987 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T16:31:34,996 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = null 
+2021-05-20T16:31:34,998 TRACE [Test worker]: ActorController                      - > addActor - result = null 
+2021-05-20T16:31:35,000 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = null 
+2021-05-20T19:09:12,914 WARN  [Test worker]: DefaultHandlerExceptionResolver      - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: ro.ubb.catalog.web.dto.PlayDTO ro.ubb.catalog.web.controller.PlayController.addPlay(ro.ubb.catalog.web.dto.PlayDTO) 
+2021-05-20T19:09:12,987 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-20T19:09:12,999 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [null]. 
+2021-05-20T19:09:13,245 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-20T19:09:13,246 TRACE [Test worker]: PlayController                       - > getPlay - result = null. 
+2021-05-20T19:10:01,075 TRACE [Test worker]: PlayController                       - > addPlay - method entered. playDto = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T19:10:01,091 TRACE [Test worker]: PlayController                       - > addPlay - after DTO -> Model conversion play = null 
+2021-05-20T19:10:01,096 TRACE [Test worker]: PlayController                       - > addPlay - result = null 
+2021-05-20T19:10:01,097 TRACE [Test worker]: PlayController                       - > addPlay - after Model -> DTO conversion playModel = null 
+2021-05-20T19:10:01,174 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-20T19:10:01,177 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+2021-05-20T19:10:01,365 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-20T19:10:01,366 TRACE [Test worker]: PlayController                       - > getPlay - result = null. 
+2021-05-20T19:18:30,045 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-20T19:18:30,065 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+2021-05-20T19:18:31,685 TRACE [Test worker]: PlayController                       - > deletePlay - method entered. id = 3 
+2021-05-20T19:31:51,640 TRACE [Test worker]: PerformanceController                - > getPerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T19:31:51,659 TRACE [Test worker]: PerformanceController                - > getPerformance - result = null. 
+2021-05-20T19:31:51,780 TRACE [Test worker]: PerformanceController                - > deletePerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T19:31:51,781 TRACE [Test worker]: PerformanceController                - > deletePerformance - method finished. 
+2021-05-20T19:31:52,109 TRACE [Test worker]: PerformanceController                - > addPerformance - method entered. performanceDto = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@25523540, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T19:31:52,112 TRACE [Test worker]: PerformanceController                - > addPerformance - after DTO -> Model conversion performance = null 
+2021-05-20T19:31:52,113 TRACE [Test worker]: PerformanceController                - > addPerformance - result = null 
+2021-05-20T19:31:52,114 TRACE [Test worker]: PerformanceController                - > addPerformance - after Model -> DTO conversion performanceModel = null 
+2021-05-20T19:31:52,182 TRACE [Test worker]: PerformanceController                - > getAllPerformances - method entered. 
+2021-05-20T19:31:52,184 TRACE [Test worker]: PerformanceController                - > getAllPerformances - result = [PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@f4d13d11, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet)]. 
+2021-05-20T19:44:35,065 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:44:35,074 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:44:35,078 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:44:35,078 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:44:58,087 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:44:58,103 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:44:58,106 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:44:58,106 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:45:08,370 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:45:08,381 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:45:08,386 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:45:08,387 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:46:17,718 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:46:30,656 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:46:30,670 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:46:30,671 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:46:49,096 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:49:36,808 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:49:36,821 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:49:36,822 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:49:36,823 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:49:56,963 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:49:56,980 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:49:56,982 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T19:49:56,983 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T19:50:19,952 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T19:50:23,884 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T19:50:45,800 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T20:03:21,988 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:03:22,006 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T20:03:22,007 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T20:03:22,008 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T20:03:42,196 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:03:42,207 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T20:03:42,208 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T20:03:42,208 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T20:03:56,891 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:03:56,909 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = null 
+2021-05-20T20:03:56,910 TRACE [Test worker]: DirectorController                   - > addDirector - result = null 
+2021-05-20T20:03:56,911 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = null 
+2021-05-20T20:13:15,882 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:13:15,909 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:13:15,911 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:13:15,914 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:13:44,016 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:13:44,027 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:13:44,028 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:13:44,029 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:15:09,790 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:15:09,802 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:15:09,803 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:15:09,804 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:15:39,080 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:15:39,093 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:15:39,095 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-20T20:15:39,096 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-20T20:54:37,454 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-20T20:54:37,468 TRACE [Test worker]: PlayController                       - > getPlay - result = null. 
+2021-05-20T20:58:09,974 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-20T21:19:36,256 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-20T21:19:36,286 TRACE [Test worker]: PlayController                       - > getPlay - result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120). 
+2021-05-20T21:23:39,434 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:23:39,459 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:24:32,873 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:24:32,891 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:01,719 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-20T21:25:01,976 TRACE [Test worker]: PlayController                       - > addPlay - method entered. playDto = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:01,977 TRACE [Test worker]: PlayController                       - > addPlay - after DTO -> Model conversion play = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:01,978 TRACE [Test worker]: PlayController                       - > addPlay - result = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:01,979 TRACE [Test worker]: PlayController                       - > addPlay - after Model -> DTO conversion playModel = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:02,104 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-20T21:25:02,105 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+2021-05-20T21:25:02,157 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:02,158 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:02,193 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-20T21:25:02,194 TRACE [Test worker]: PlayController                       - > getPlay - result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120). 
+2021-05-20T21:25:02,274 TRACE [Test worker]: PlayController                       - > deletePlay - method entered. id = 3 
+2021-05-20T21:25:23,023 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-20T21:25:23,267 TRACE [Test worker]: PlayController                       - > addPlay - method entered. playDto = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,269 TRACE [Test worker]: PlayController                       - > addPlay - after DTO -> Model conversion play = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,271 TRACE [Test worker]: PlayController                       - > addPlay - result = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,272 TRACE [Test worker]: PlayController                       - > addPlay - after Model -> DTO conversion playModel = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,435 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-20T21:25:23,437 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+2021-05-20T21:25:23,535 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,536 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-20T21:25:23,597 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-20T21:25:23,598 TRACE [Test worker]: PlayController                       - > getPlay - result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120). 
+2021-05-20T21:25:23,644 TRACE [Test worker]: PlayController                       - > deletePlay - method entered. id = 3 
+2021-05-20T21:29:44,897 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T21:29:44,915 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = Actor(super=BaseEntity{id=1}, name=Anna, age=18, gender=female) 
+2021-05-20T21:29:44,917 TRACE [Test worker]: ActorController                      - > addActor - result = Actor(super=BaseEntity{id=1}, name=Anna, age=18, gender=female) 
+2021-05-20T21:29:44,918 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T21:29:45,114 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-20T21:29:45,154 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-20T21:29:45,155 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male), ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female)]. 
+2021-05-20T21:29:45,245 TRACE [Test worker]: ActorController                      - > updateActor - method entered. actorDTO = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-20T21:29:45,289 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-20T21:29:45,290 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = [ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male), ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female)]. 
+2021-05-20T21:34:46,069 TRACE [Test worker]: PerformanceController                - > getPerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:34:46,097 TRACE [Test worker]: PerformanceController                - > getPerformance - result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@1a601b05, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet). 
+2021-05-20T21:34:46,417 TRACE [Test worker]: PerformanceController                - > deletePerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:34:46,420 TRACE [Test worker]: PerformanceController                - > deletePerformance - method finished. 
+2021-05-20T21:34:46,690 TRACE [Test worker]: PerformanceController                - > addPerformance - method entered. performanceDto = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@61dca608, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:34:46,690 TRACE [Test worker]: PerformanceController                - > addPerformance - after DTO -> Model conversion performance = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:34:46,692 TRACE [Test worker]: PerformanceController                - > addPerformance - result = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:34:46,694 TRACE [Test worker]: PerformanceController                - > addPerformance - after Model -> DTO conversion performanceModel = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@db3557c2, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:34:46,748 TRACE [Test worker]: PerformanceController                - > getAllPerformances - method entered. 
+2021-05-20T21:34:46,749 TRACE [Test worker]: PerformanceController                - > getAllPerformances - result = [PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@3d99ea79, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet)]. 
+2021-05-20T21:34:46,909 WARN  [Test worker]: PageNotFound                         - Request method 'POST' not supported 
+2021-05-20T21:35:24,504 TRACE [Test worker]: PerformanceController                - > getPerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:35:24,525 TRACE [Test worker]: PerformanceController                - > getPerformance - result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@1a601b05, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet). 
+2021-05-20T21:35:24,794 TRACE [Test worker]: PerformanceController                - > deletePerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:35:24,795 TRACE [Test worker]: PerformanceController                - > deletePerformance - method finished. 
+2021-05-20T21:35:24,958 TRACE [Test worker]: PerformanceController                - > addPerformance - method entered. performanceDto = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@d19d572b, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:35:24,959 TRACE [Test worker]: PerformanceController                - > addPerformance - after DTO -> Model conversion performance = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:35:24,960 TRACE [Test worker]: PerformanceController                - > addPerformance - result = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:35:24,961 TRACE [Test worker]: PerformanceController                - > addPerformance - after Model -> DTO conversion performanceModel = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@d7319b4a, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:35:25,090 TRACE [Test worker]: PerformanceController                - > getAllPerformances - method entered. 
+2021-05-20T21:35:25,091 TRACE [Test worker]: PerformanceController                - > getAllPerformances - result = [PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@6ad1e64b, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet)]. 
+2021-05-20T21:35:25,173 WARN  [Test worker]: PageNotFound                         - Request method 'POST' not supported 
+2021-05-20T21:35:44,904 TRACE [Test worker]: PerformanceController                - > getPerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:35:44,921 TRACE [Test worker]: PerformanceController                - > getPerformance - result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@1a601b05, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet). 
+2021-05-20T21:35:45,101 TRACE [Test worker]: PerformanceController                - > deletePerformance - method entered. playId = 3 actorId = 4 
+2021-05-20T21:35:45,102 TRACE [Test worker]: PerformanceController                - > deletePerformance - method finished. 
+2021-05-20T21:35:45,216 TRACE [Test worker]: PerformanceController                - > addPerformance - method entered. performanceDto = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@d19d572b, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:35:45,216 TRACE [Test worker]: PerformanceController                - > addPerformance - after DTO -> Model conversion performance = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:35:45,217 TRACE [Test worker]: PerformanceController                - > addPerformance - result = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-20T21:35:45,218 TRACE [Test worker]: PerformanceController                - > addPerformance - after Model -> DTO conversion performanceModel = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@d7319b4a, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:35:45,261 TRACE [Test worker]: PerformanceController                - > getAllPerformances - method entered. 
+2021-05-20T21:35:45,261 TRACE [Test worker]: PerformanceController                - > getAllPerformances - result = [PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@6ad1e64b, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet)]. 
+2021-05-20T21:35:45,312 TRACE [Test worker]: PerformanceController                - > updatePerformance - method entered. performanceDTO = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@25fbc719, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-20T21:35:45,313 TRACE [Test worker]: PerformanceController                - > updatePerformance - result of update: result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@8ea2e58f, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-21T16:37:53,139 TRACE [Test worker]: ActorController                      - > addActor - method entered. actorDto = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-21T16:37:53,156 TRACE [Test worker]: ActorController                      - > addActor - after DTO -> Model conversion actor = Actor(super=BaseEntity{id=1}, name=Anna, age=18, gender=female) 
+2021-05-21T16:37:53,158 TRACE [Test worker]: ActorController                      - > addActor - result = Actor(super=BaseEntity{id=1}, name=Anna, age=18, gender=female) 
+2021-05-21T16:37:53,159 TRACE [Test worker]: ActorController                      - > addActor - after Model -> DTO conversion actorModel = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-21T16:37:53,369 TRACE [Test worker]: ActorController                      - > deleteActor - method entered. id = 1 
+2021-05-21T16:37:53,398 TRACE [Test worker]: ActorController                      - > getAllActors - method entered. 
+2021-05-21T16:37:53,399 TRACE [Test worker]: ActorController                      - > getAllActors - result = [ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male), ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female)]. 
+2021-05-21T16:37:53,491 TRACE [Test worker]: ActorController                      - > updateActor - method entered. actorDTO = ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female) 
+2021-05-21T16:37:53,550 TRACE [Test worker]: ActorController                      - > getAllActorsReport - method entered. 
+2021-05-21T16:37:53,550 TRACE [Test worker]: ActorController                      - > getAllActorsReport - result = [ActorDTO(super=BaseDTO(id=2), name=Max, age=20, gender=male), ActorDTO(super=BaseDTO(id=1), name=Anna, age=18, gender=female)]. 
+2021-05-21T16:38:04,106 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-21T16:38:04,204 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - method entered. 
+2021-05-21T16:38:04,205 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - result = []. 
+2021-05-21T16:38:04,528 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:38:04,529 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:38:04,530 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:38:04,531 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:38:04,571 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-21T16:38:04,572 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:39:44,906 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-21T16:39:45,005 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - method entered. 
+2021-05-21T16:39:45,007 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:39:45,325 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:39:45,327 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:39:45,328 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:39:45,330 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:39:45,374 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-21T16:39:45,375 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:40:08,302 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-21T16:40:08,470 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - method entered. 
+2021-05-21T16:40:08,472 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:40:08,856 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:40:08,857 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:40:08,858 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:40:08,860 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:40:08,910 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-21T16:40:08,911 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:41:58,802 TRACE [Test worker]: DirectorController                   - > deleteDirector - method entered. id = 3 
+2021-05-21T16:41:58,934 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - method entered. 
+2021-05-21T16:41:58,937 TRACE [Test worker]: DirectorController                   - > getAllDirectorsReport - result = [DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male), DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female)]. 
+2021-05-21T16:41:59,252 TRACE [Test worker]: DirectorController                   - > addDirector - method entered. directorDTO = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:41:59,252 TRACE [Test worker]: DirectorController                   - > addDirector - after DTO -> Model conversion director = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:41:59,253 TRACE [Test worker]: DirectorController                   - > addDirector - result = Director(super=BaseEntity{id=6}, name=Mara, age=20, gender=female) 
+2021-05-21T16:41:59,254 TRACE [Test worker]: DirectorController                   - > addDirector - after Model -> DTO conversion directorModel = DirectorDTO(super=BaseDTO(id=6), name=Mara, age=20, gender=female) 
+2021-05-21T16:41:59,288 TRACE [Test worker]: DirectorController                   - > getAllDirectors - method entered. 
+2021-05-21T16:41:59,290 TRACE [Test worker]: DirectorController                   - > getAllDirectors - result = [DirectorDTO(super=BaseDTO(id=3), name=Helen, age=30, gender=female), DirectorDTO(super=BaseDTO(id=4), name=Chris, age=27, gender=male)]. 
+2021-05-21T16:42:21,450 TRACE [Test worker]: OfficeController                     - > getAllOffices - method entered. 
+2021-05-21T16:42:21,475 TRACE [Test worker]: OfficeController                     - > getAllOffices - result = [OfficeDTO(super=BaseDTO(id=1), officeNumber=23A, address=street 34), OfficeDTO(super=BaseDTO(id=2), officeNumber=25B, address=street 25)]. 
+2021-05-21T16:42:32,496 TRACE [Test worker]: PerformanceController                - > getPerformance - method entered. playId = 3 actorId = 4 
+2021-05-21T16:42:32,512 TRACE [Test worker]: PerformanceController                - > getPerformance - result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@1a601b05, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet). 
+2021-05-21T16:42:32,733 TRACE [Test worker]: PerformanceController                - > deletePerformance - method entered. playId = 3 actorId = 4 
+2021-05-21T16:42:32,734 TRACE [Test worker]: PerformanceController                - > deletePerformance - method finished. 
+2021-05-21T16:42:32,835 TRACE [Test worker]: PerformanceController                - > addPerformance - method entered. performanceDto = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@d7319b4a, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-21T16:42:32,838 TRACE [Test worker]: PerformanceController                - > addPerformance - after DTO -> Model conversion performance = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-21T16:42:32,839 TRACE [Test worker]: PerformanceController                - > addPerformance - result = Performance {play = 3 | actor = 4 | role = Juliet} 
+2021-05-21T16:42:32,840 TRACE [Test worker]: PerformanceController                - > addPerformance - after Model -> DTO conversion performanceModel = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@3d94fe6d, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-21T16:42:32,896 TRACE [Test worker]: PerformanceController                - > getAllPerformances - method entered. 
+2021-05-21T16:42:32,897 TRACE [Test worker]: PerformanceController                - > getAllPerformances - result = [PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@184c3ff5, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet)]. 
+2021-05-21T16:42:32,987 TRACE [Test worker]: PerformanceController                - > updatePerformance - method entered. performanceDTO = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@8ea2e58f, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-21T16:42:32,988 TRACE [Test worker]: PerformanceController                - > updatePerformance - result of update: result = PerformanceDTO(super=ro.ubb.catalog.web.dto.PerformanceDTO@4e473941, play=PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120), actor=ActorDTO(super=BaseDTO(id=4), name=Anna, age=18, gender=female), role=Juliet) 
+2021-05-21T16:42:47,950 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-21T16:42:48,200 TRACE [Test worker]: PlayController                       - > addPlay - method entered. playDto = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,201 TRACE [Test worker]: PlayController                       - > addPlay - after DTO -> Model conversion play = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,202 TRACE [Test worker]: PlayController                       - > addPlay - result = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,203 TRACE [Test worker]: PlayController                       - > addPlay - after Model -> DTO conversion playModel = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,346 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-21T16:42:48,347 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+2021-05-21T16:42:48,410 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,411 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,455 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-21T16:42:48,456 TRACE [Test worker]: PlayController                       - > getPlay - result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120). 
+2021-05-21T16:42:48,505 TRACE [Test worker]: PlayController                       - > deletePlay - method entered. id = 3 

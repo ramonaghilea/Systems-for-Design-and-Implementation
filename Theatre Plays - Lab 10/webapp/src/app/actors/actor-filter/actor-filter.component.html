@@ -1,0 +1,18 @@
+<h2>Filter Actors By Name</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let actor of actors">
+      <span>Id: {{actor.id}} | Name: {{actor.name}} | Age: {{actor.age}} | Gender: {{actor.gender}}</span>
+    </li>
+  </ul>
+</div>
+
+<label>Name:<input #nameInput/></label><br/>
+<nav>
+  <button class="filter" title="filter actors"
+          (click)="filterActorsByName(nameInput.value)">Filter by Name</button>
+
+  <button class="filter" title="go back"
+          (click)="goBack()">Go Back</button>
+</nav>

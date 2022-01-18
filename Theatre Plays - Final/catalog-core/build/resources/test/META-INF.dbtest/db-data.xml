@@ -1,0 +1,19 @@
+<dataset>
+    <Actor id="11" name="john" age="34" gender="male" />
+    <Actor id="12" name="maria" age="44" gender="female" />
+    <Actor id="13" name="georgia" age="35" gender="female" />
+
+    <Office id="11" officeNumber="34A" address="street 45" />
+    <Office id="12" officeNumber="50B" address="street 80" />
+
+    <Director id="11" name="stephan" age="54" gender="male" />
+    <Director id="12" name="emma" age="60" gender="female" />
+    <Director id="13" name="helen" age="35" gender="female" />
+
+    <Play id="11" playName="romeo and juliet" duration="100" director_id="11" />
+    <Play id="12" playName="macbeth" duration="180" director_id="12" />
+    <Play id="13" playName="othello" duration="200" director_id="13" />
+
+    <Performance play_id="11" actor_id="12" role="juliet" />
+    <Performance play_id="12" actor_id="11" role="brandon" />
+</dataset>

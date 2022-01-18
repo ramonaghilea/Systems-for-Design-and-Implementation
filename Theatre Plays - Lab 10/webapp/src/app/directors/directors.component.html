@@ -1,0 +1,15 @@
+<h2>Directors</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let director of directors">
+      <span>Id: {{director.id}} | Name: {{director.name}} | Age: {{director.age}} | Gender: {{director.gender}}</span>
+    </li>
+  </ul>
+</div>
+
+<nav>
+  <a routerLink="/director-form">
+    Add Director
+  </a>
+</nav>

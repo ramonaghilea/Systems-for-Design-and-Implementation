@@ -1,0 +1,10 @@
+ro/ubb/catalog/web/controller/ActorControllerTest.java
+ ro.ubb.catalog.web.controller.ActorControllerTest
+ro/ubb/catalog/web/controller/PlayControllerTest.java
+ ro.ubb.catalog.web.controller.PlayControllerTest
+ro/ubb/catalog/web/controller/OfficeControllerTest.java
+ ro.ubb.catalog.web.controller.OfficeControllerTest
+ro/ubb/catalog/web/controller/PerformanceControllerTest.java
+ ro.ubb.catalog.web.controller.PerformanceControllerTest
+ro/ubb/catalog/web/controller/DirectorControllerTest.java
+ ro.ubb.catalog.web.controller.DirectorControllerTest

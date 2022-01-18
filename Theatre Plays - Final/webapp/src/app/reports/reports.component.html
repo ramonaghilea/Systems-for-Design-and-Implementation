@@ -1,0 +1,43 @@
+<h2>Plays</h2>
+<h3>Plays sorted descending by the number of actors</h3>
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let play of plays">
+      <span>Id: {{play.id}} | Name: {{play.playName}} | Duration: {{play.duration}} | Director: {{play.director.name}}</span>
+
+    </li>
+  </ul>
+</div>
+
+<h2>Actors</h2>
+<h3>Actors sorted descending by the number of plays</h3>
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let actor of actors">
+      <span>Id: {{actor.id}} | Name: {{actor.name}}</span>
+
+    </li>
+  </ul>
+</div>
+
+<h2>Directors</h2>
+<h3>Directors sorted descending by the number of plays</h3>
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let director of directors">
+      <span>Id: {{director.id}} | Name: {{director.name}}</span>
+
+    </li>
+  </ul>
+</div>
+
+<h2>Offices</h2>
+<h3>Offices sorted descending by the number of plays of the director</h3>
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let office of offices">
+      <span>Id: {{office.id}} | Office Number: {{office.officeNumber}}</span>
+
+    </li>
+  </ul>
+</div>

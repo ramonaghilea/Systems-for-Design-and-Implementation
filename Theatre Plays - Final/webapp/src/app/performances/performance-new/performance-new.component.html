@@ -1,0 +1,33 @@
+<h2>New Performance</h2>
+
+<form [formGroup]="performanceForm" (ngSubmit)="onSubmit()">
+
+  <div class="form-group">
+    <label>
+      Play:
+      <select class="form-control" formControlName="play">
+        <option *ngFor="let play of plays" [ngValue]="play">{{play.playName}}</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      Actor:
+      <select class="form-control" formControlName="actor">
+        <option *ngFor="let actor of actors" [ngValue]="actor">{{actor.name}}</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="form-group">
+    <label>
+      Role:
+      <input type="text" class="form-control" formControlName="role">
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-success"
+          [disabled]="!performanceForm.valid">Submit</button>
+
+</form>

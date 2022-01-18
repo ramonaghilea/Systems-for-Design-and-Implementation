@@ -1,0 +1,23 @@
+<h2>Performances</h2>
+
+<div class='play-list'>
+  <ul>
+    <li *ngFor="let performance of performances">
+      <span>Play Id: {{performance.play.id}} | Play Name: {{performance.play.playName}} | Actor Id: {{performance.actor.id}} | Actor Name: {{performance.actor.name}} | Role: {{performance.role}}</span>
+
+      <button class="delete" title="delete director"
+              (click)="deletePerformance(performance.play.id, performance.actor.id)">Delete</button>
+
+            <a routerLink="/performance-update/{{performance.play.id}}/{{performance.actor.id}}">
+              <button>Update</button>
+            </a>
+
+    </li>
+  </ul>
+</div>
+
+<nav>
+  <a routerLink="/performance-new">
+    Assign a role to an actor
+  </a>
+</nav>

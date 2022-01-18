@@ -1,0 +1,22 @@
+ro/ubb/catalog/core/service/DirectorServiceTest.java
+ ro.ubb.catalog.core.service.DirectorServiceTest
+ro/ubb/catalog/core/repository/PlayRepositoryTest.java
+ ro.ubb.catalog.core.repository.PlayRepositoryTest
+ro/ubb/catalog/core/service/PerformanceServiceTest.java
+ ro.ubb.catalog.core.service.PerformanceServiceTest
+ro/ubb/catalog/core/repository/DirectorRepositoryTest.java
+ ro.ubb.catalog.core.repository.DirectorRepositoryTest
+ro/ubb/catalog/core/ITConfig.java
+ ro.ubb.catalog.core.ITConfig
+ro/ubb/catalog/core/service/PlayServiceTest.java
+ ro.ubb.catalog.core.service.PlayServiceTest
+ro/ubb/catalog/core/JPAConfigIT.java
+ ro.ubb.catalog.core.JPAConfigIT
+ro/ubb/catalog/core/service/OfficeServiceTest.java
+ ro.ubb.catalog.core.service.OfficeServiceTest
+ro/ubb/catalog/core/service/ActorServiceTest.java
+ ro.ubb.catalog.core.service.ActorServiceTest
+ro/ubb/catalog/core/repository/OfficeRepositoryTest.java
+ ro.ubb.catalog.core.repository.OfficeRepositoryTest
+ro/ubb/catalog/core/repository/ActorRepositoryTest.java
+ ro.ubb.catalog.core.repository.ActorRepositoryTest

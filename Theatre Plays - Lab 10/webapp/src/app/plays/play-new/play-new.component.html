@@ -1,0 +1,9 @@
+<h2>New Play</h2>
+
+<div>
+  <label>Play Name:<input #playNameInput/></label><br/>
+  <label>Duration:<input #durationInput/></label><br/>
+  <button (click)="addPlay(playNameInput.value, durationInput.value)">
+    Submit
+  </button>
+</div>

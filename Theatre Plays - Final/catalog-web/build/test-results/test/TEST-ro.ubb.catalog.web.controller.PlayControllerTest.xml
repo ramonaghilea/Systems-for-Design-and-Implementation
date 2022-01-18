@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ro.ubb.catalog.web.controller.PlayControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-21T13:42:45" hostname="RAMONASLAPTOP" time="3.472">
+  <properties/>
+  <testcase name="getPlay_Fail" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="2.947"/>
+  <testcase name="addPlay" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="0.324"/>
+  <testcase name="getAllPlays" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="0.056"/>
+  <testcase name="updatePlay" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="0.051"/>
+  <testcase name="getPlay" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="0.048"/>
+  <testcase name="deletePlay" classname="ro.ubb.catalog.web.controller.PlayControllerTest" time="0.046"/>
+  <system-out><![CDATA[2021-05-21T16:42:47,950 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 10 
+2021-05-21T16:42:48,200 TRACE [Test worker]: PlayController                       - > addPlay - method entered. playDto = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,201 TRACE [Test worker]: PlayController                       - > addPlay - after DTO -> Model conversion play = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,202 TRACE [Test worker]: PlayController                       - > addPlay - result = Play(super=BaseEntity{id=3}, playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,203 TRACE [Test worker]: PlayController                       - > addPlay - after Model -> DTO conversion playModel = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,346 TRACE [Test worker]: PlayController                       - > getAllPlays - method entered. 
+2021-05-21T16:42:48,347 TRACE [Test worker]: PlayController                       - > getAllPlays - result = [PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120)]. 
+[{"id":3,"playName":"Romeo and Juliet","duration":120,"director":{"id":2,"name":"Helen","age":30,"gender":"female","office":{"id":1,"officeNumber":"23A","address":"street 34","director":null}}}]
+2021-05-21T16:42:48,410 TRACE [Test worker]: PlayController                       - > updatePlay - method entered. playDTO = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,411 TRACE [Test worker]: PlayController                       - > updatePlay - result of update: result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120) 
+2021-05-21T16:42:48,455 TRACE [Test worker]: PlayController                       - > getPlay - method entered. id = 3 
+2021-05-21T16:42:48,456 TRACE [Test worker]: PlayController                       - > getPlay - result = PlayDTO(super=BaseDTO(id=3), playName=Romeo and Juliet, duration=120). 
+{"id":3,"playName":"Romeo and Juliet","duration":120,"director":{"id":2,"name":"Helen","age":30,"gender":"female","office":{"id":1,"officeNumber":"23A","address":"street 34","director":null}}}
+2021-05-21T16:42:48,505 TRACE [Test worker]: PlayController                       - > deletePlay - method entered. id = 3 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

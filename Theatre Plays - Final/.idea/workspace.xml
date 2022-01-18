@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aba53d5a-3943-4889-b363-491ac2b1f88f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/modules/AngularProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/modules/catalog-1-list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/modules/catalog-core/catalog-1-list.catalog-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/modules/catalog-web/catalog-1-list.catalog-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/CacheConfig$CustomRemovalListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/CacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/JPAConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Actor$ActorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Director$DirectorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Play$PlayBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/TheatreRoom$TheatreRoomBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/TheatreRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/ActorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/CatalogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/DirectorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/PlayRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/TheatreRoomRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/ActorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/ActorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/DirectorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/DirectorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/TheatreRoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/TheatreRoomServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/libs/catalog-core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/config/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/config/JPAConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/model/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/model/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/model/Play.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/model/TheatreRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/repository/ActorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/repository/CatalogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/repository/DirectorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/repository/PlayRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/repository/TheatreRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/ActorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/ActorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/DirectorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/DirectorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/PlayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/PlayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/TheatreRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-core/src/main/java/ro/ubb/catalog/core/service/TheatreRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/AppLocalConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/Initializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/WebConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/ActorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/DirectorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/PlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/TheatreRoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/ActorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/BaseConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/DirectorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/PlayConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/TheatreRoomConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/ActorDTO$ActorDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/ActorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/DirectorDTO$DirectorDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/DirectorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/EmptyJsonResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PlayDTO$PlayDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PlayDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/TheatreRoomDTO$TheatreRoomDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/TheatreRoomDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/libs/catalog-web-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/resources/main/local/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/config/AppLocalConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/config/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/controller/ActorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/controller/DirectorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/controller/TheatreRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/ActorConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/BaseConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/DirectorConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/PlayConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/converter/TheatreRoomConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/ActorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/DirectorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/EmptyJsonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/PlayDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/java/ro/ubb/catalog/web/dto/TheatreRoomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/resources/local/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/catalog-web/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-filter/actor-filter.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-filter/actor-filter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-filter/actor-filter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-filter/actor-filter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-form/actor-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-form/actor-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-form/actor-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-form/actor-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-list/actor-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-list/actor-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-list/actor-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actor-list/actor-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actors.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actors.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actors.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/actors.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/shared/actor.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/shared/actor.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/actors/shared/age-validator.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/director-form/director-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/director-form/director-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/director-form/director-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/director-form/director-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/directors.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/directors.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/directors.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/directors.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/shared/director.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/directors/shared/director.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-list/play-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-list/play-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-list/play-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-list/play-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-new/play-new.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-new/play-new.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-new/play-new.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-new/play-new.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-update/play-update.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-update/play-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-update/play-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/play-update/play-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/plays.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/plays.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/plays.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/plays.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/shared/play.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/plays/shared/play.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/shared/theatreroom.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/shared/theatreroom.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/theatreroom.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/theatreroom.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/theatreroom.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/app/theatreroom/theatreroom.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 10/webapp/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/AngularProject - Lab 11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/dataSources/d898f5f5-d284-443e-ba35-d9348582d7d2/storage_v2/_src_/database/theatrengjpa.S_R12w/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/modules/AngularProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/modules/catalog-1-list.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/modules/catalog-core/catalog-1-list.catalog-core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/modules/catalog-web/catalog-1-list.catalog-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/CacheConfig$CustomRemovalListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/CacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/config/JPAConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Actor$ActorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Director$DirectorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Office$OfficeBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Office.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Performance$PerformanceBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Performance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/PerformancePK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Play$PlayBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Props$PropsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/Props.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/RoomProps$RoomPropsBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/RoomProps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/RoomPropsPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/TheatreRoom$TheatreRoomBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/model/TheatreRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/ActorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/CatalogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/DirectorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/OfficeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/PlayRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/PropsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/repository/TheatreRoomRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/ActorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/ActorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/DirectorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/DirectorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/OfficeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/OfficeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PerformanceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PerformanceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PropsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PropsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/TheatreRoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/TheatreRoomServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/libs/catalog-core-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/config/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/config/JPAConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Office.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Performance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/PerformancePK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Play.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/Props.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/RoomProps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/RoomPropsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/model/TheatreRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/ActorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/CatalogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/DirectorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/OfficeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/PlayRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/PropsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/repository/TheatreRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/ActorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/ActorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/DirectorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/DirectorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/OfficeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/OfficeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PerformanceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PerformanceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PlayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PlayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PropsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/PropsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/TheatreRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-core/src/main/java/ro/ubb/catalog/core/service/TheatreRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/AppLocalConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/Initializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/WebConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/ActorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/DirectorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/OfficeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/PerformanceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/PlayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/PropsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/controller/TheatreRoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/ActorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/BaseConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/DirectorConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/OfficeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/PerformanceConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/PlayConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/PropsConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/converter/TheatreRoomConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/ActorDTO$ActorDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/ActorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/DirectorDTO$DirectorDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/DirectorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/EmptyJsonResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/OfficeDTO$OfficeDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/OfficeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PerformanceDTO$PerformanceDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PerformanceDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PlayDTO$PlayDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PlayDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PropsDTO$PropsDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/PropsDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/TheatreRoomDTO$TheatreRoomDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/classes/java/main/ro/ubb/catalog/web/dto/TheatreRoomDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/libs/catalog-web-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/resources/main/local/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/config/AppLocalConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/config/Initializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/ActorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/DirectorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/OfficeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PerformanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PlayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PropsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/controller/TheatreRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/ActorConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/BaseConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/DirectorConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/OfficeConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/PerformanceConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/PlayConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/PropsConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/converter/TheatreRoomConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/ActorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/DirectorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/EmptyJsonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/OfficeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/PerformanceDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/PlayDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/PropsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/java/ro/ubb/catalog/web/dto/TheatreRoomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/resources/local/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/catalog-web/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-filter/actor-filter.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-filter/actor-filter.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-filter/actor-filter.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-filter/actor-filter.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-form/actor-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-form/actor-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-form/actor-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-form/actor-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-list/actor-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-list/actor-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-list/actor-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actor-list/actor-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actors.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actors.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actors.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/actors.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/shared/actor.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/actors/shared/age-validator.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/director-form/director-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/director-form/director-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/director-form/director-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/director-form/director-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/directors.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/directors.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/directors.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/directors.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/directors/shared/director.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/offices/offices.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/offices/offices.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/offices/offices.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/offices/offices.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/offices/shared/office.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-new/performance-new.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-new/performance-new.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-new/performance-new.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-new/performance-new.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-update/performance-update.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-update/performance-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-update/performance-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performance-update/performance-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performances.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performances.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performances.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/performances.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/performances/shared/performance.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-list/play-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-list/play-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-list/play-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-list/play-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-new/play-new.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-new/play-new.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-new/play-new.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-new/play-new.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-update/play-update.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-update/play-update.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-update/play-update.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/play-update/play-update.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/plays.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/plays.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/plays.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/plays.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/plays/shared/play.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/reports/reports.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/reports/reports.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/reports/reports.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/reports/reports.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/actor.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/director.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/office.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/performance.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/play.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/shared/theatreroom.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/theatreroom/shared/theatreroom.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/theatreroom/theatreroom.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/theatreroom/theatreroom.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/theatreroom/theatreroom.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/app/theatreroom/theatreroom.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularProject - Lab 11/webapp/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-core/build/classes/java/main/ro/ubb/catalog/core/service/PlayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-core/build/libs/catalog-core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-core/build/libs/catalog-core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-core/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-core/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-web/build/libs/catalog-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-web/build/libs/catalog-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PlayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-web/src/main/java/ro/ubb/catalog/web/controller/PlayController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1slnkkKkG3CUlwy8bRrQSAqRMaD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Systems-for-Design-and-Implementation/Theatre Plays" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="ts.external.directory.path" value="C:\Users\ramon\IdeaProjects\lab9x-ramonaghilea\AngularProject\webapp\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ramon\IdeaProjects\lab9x-ramonaghilea\AngularProject\catalog-core\src\main\java\ro\ubb\catalog\core\repository\CriteriaAPI" />
+      <recent name="C:\Users\ramon\IdeaProjects\lab9x-ramonaghilea\AngularProject\catalog-core\src\main\java\ro\ubb\catalog\core\repository\JPQL" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ro.ubb.catalog.core.repository.actor" />
+      <recent name="ro.ubb.catalog.core.repository.office" />
+      <recent name="ro.ubb.catalog.web.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.452">
+    <configuration name="ActorRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ro.ubb.catalog.core.repository.ActorRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":catalog-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActorServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ro.ubb.catalog.core.service.ActorServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":catalog-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DirectorRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ro.ubb.catalog.core.repository.DirectorRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":catalog-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PerformanceServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ro.ubb.catalog.core.service.PerformanceServiceTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":catalog-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ro.ubb.catalog.core.repository.PlayRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":catalog-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.452" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.452" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : ro.ubb.catalog : catalog-web-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7cf21cb8-95b4-4238-bb3f-0925b433de85" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52477" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : ro.ubb.catalog : catalog-web-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.PlayRepositoryTest" />
+      <item itemvalue="Gradle.DirectorRepositoryTest" />
+      <item itemvalue="Gradle.ActorRepositoryTest" />
+      <item itemvalue="Gradle.PerformanceServiceTest" />
+      <item itemvalue="Gradle.ActorServiceTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.452" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ActorServiceTest" />
+        <item itemvalue="Gradle.PerformanceServiceTest" />
+        <item itemvalue="Gradle.ActorRepositoryTest" />
+        <item itemvalue="Gradle.DirectorRepositoryTest" />
+        <item itemvalue="Gradle.PlayRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aba53d5a-3943-4889-b363-491ac2b1f88f" name="Default Changelist" comment="" />
+      <created>1621456189716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621456189716</updated>
+      <workItem from="1621456191284" duration="3138000" />
+      <workItem from="1621498610935" duration="56895000" />
+      <workItem from="1621847313465" duration="281000" />
+      <workItem from="1621880437881" duration="31000" />
+      <workItem from="1621881110404" duration="675000" />
+      <workItem from="1623302568828" duration="8777000" />
+      <workItem from="1642153369355" duration="980000" />
+      <workItem from="1642154427967" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

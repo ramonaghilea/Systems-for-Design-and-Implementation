@@ -1,0 +1,13 @@
+<div *ngIf="play">
+  <h2>{{play.playName | uppercase}} Details</h2>
+  <div><span>id: </span>{{play.id}}</div>
+  <div>
+    <label for="play-name">Play name: </label>
+    <input id="play-name" [(ngModel)]="play.playName" placeholder="Play name"/>
+    <br>
+    <label for="play-duration">Play duration: </label>
+    <input id="play-duration" [(ngModel)]="play.duration" placeholder="Play duration"/>
+  </div>
+<!--  <button (click)="goBack()">go back</button>-->
+  <button (click)="updatePlay()">Update</button>
+</div>

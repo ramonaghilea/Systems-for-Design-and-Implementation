@@ -1,0 +1,69 @@
+<h2>New Director</h2>
+
+<form [formGroup]="directorForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label>
+      Name:
+      <input type="text" class="form-control" formControlName="name">
+    </label>
+    <div *ngIf="name.invalid && (name.dirty || name.touched)"
+         class="alert alert-danger">
+
+      <div *ngIf="name.errors.required">
+        Name is required.
+      </div>
+
+      <div *ngIf="name.errors.minlength">
+        Name must be at least 2 characters long.
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>
+      Age:
+      <input type="number" class="form-control" formControlName="age">
+    </label>
+    <div *ngIf="age.invalid && (age.dirty || age.touched)"
+         class="alert alert-danger">
+
+      <div *ngIf="age.errors.required">
+        Age is required.
+      </div>
+
+      <div *ngIf="age.errors.ageInvalid">
+        Age must pe greater than 5.
+      </div>
+    </div>
+  </div>
+
+    <div class="form-group">
+    <label>
+      Gender:
+      <select class="form-control" formControlName="gender">
+        <option *ngFor="let gender of genders" [value]="gender">{{gender}}</option>
+      </select>
+    </label>
+    </div>
+
+  <h3>Office details</h3>
+  <div class="form-group">
+    <label>
+      Office Number:
+      <input type="text" class="form-control" formControlName="officeNumber">
+    </label>
+
+  </div>
+
+  <div class="form-group">
+    <label>
+      Address:
+      <input type="text" class="form-control" formControlName="address">
+    </label>
+
+  </div>
+
+  <button type="submit" class="btn btn-success"
+          [disabled]="!directorForm.valid">Submit</button>
+
+</form>
